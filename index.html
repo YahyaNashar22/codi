@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width , initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+        <title>Health Care</title>
+    </head>
+<!-- end of head area -->
+    <body>
+       <nav>
+            <a href="#grid-container1" class="navbutton">Home</a>
+            <a href="#info" class="navbutton">About</a>
+            <a href="#contact-info" class="navbutton">Contact</a>
+            <a href="applyform" class="navbutton">Quit Smoking</a>
+        </nav>
+        <!--end of navbar-->
+        <div >
+        <img src="1.jpeg" alt="picture showing the banner" id="fullviewpic">
+        </div>
+        <!--the full picture at the beginning of the page-->
+        <article id="grid-container1">
+            <section id="section1">
+                <div class="paragraph">
+                    <h1>Smoking Kills!</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit reprehenderit doloribus animi voluptas temporibus. Iste deserunt suscipit, asperiores dicta quas laborum sit. Iste deleniti voluptatem dolores modi vitae ratione saepe.</p></div>
+                <img src="3.jpeg" alt="a trapped heart" class="squarepic">
+            </section>
+            <section id="section2">
+                <img src="4.jpeg" alt="graph that shows smokers and non smokers" class="squarepic">
+                <div class="paragraph">
+                    <h1>Is it really that hard to quit?</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium molestiae, numquam dolorum veritatis atque, autem vitae mollitia illum dolorem distinctio quod architecto odit doloremque reiciendis voluptates repellat voluptatibus non assumenda?</p>
+                </div>
+                
+            </section>
+            <section id="section3" >
+                <div class="paragraph">
+                    <h1>Our life savor plan</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat a mollitia asperiores deleniti molestias aspernatur neque pariatur! Sint velit reprehenderit magnam asperiores obcaecati, incidunt iste dolore soluta similique quidem ipsam?</p>
+                </div>
+                <img src="5.jpeg" alt="Quit sign made by cigarettes" class="squarepic">
+            </section>
+        </article>
+        <!--end of the article sections-->
+        <div class="form-container">
+            <h1 class="ftitle">Apply Now To Quit Smoking!</h1>
+            <p class="ftitle" style="font-style: italic;">Please fill in the information below</p>
+        <form id="applyform">
+            <fieldset>
+                <label for="first-name">Enter Your First Name: <input id="first-name" name="first-name" type="text" required /></label>
+                <label for="last-name">Enter Your Last Name: <input id="last-name" name="last-name" type="text" required /></label>
+                <label for="email">Enter Your Email: <input id="email" name="email" type="email" required /></label>
+            </fieldset>
+            <fieldset>
+                <label for="5cigs"><input id="5cigs" type="radio" name="cig-day" class="raio-buttons" />5 cigarettes</label>
+                <label for="10cigs"><input id="10cigs" type="radio" name="cig-day" class="raio-buttons" />10 cigarettes</label>
+                <label for="20cigs"><input id="20cigs" type="radio" name="cig-day" class="raio-buttons" />20+ cigarettes</label>
+            </fieldset>
+            <fieldset>
+                <label for="age">Input your age (years): <input id="age" type="number" name="age" min="18" max="60" /></label>
+            </fieldset>
+            <input type="submit" value="SUBMIT!" />
+        </form>
+         </div>
+        <!--end of the form-->
+        <footer id="grid-container2">
+            <div id="info"></div>
+            <div id="contact-info"></div>
+        </footer>
+        <!--footer to display our info-->
+    </body>
+</html>
